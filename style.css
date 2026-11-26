@@ -31,3 +31,40 @@ footer{background:#143d4d;color:#fff;text-align:center;padding:18px}
 .menu-social{display:flex;gap:18px;margin-top:40px;font-size:28px}
 .menu-social a{text-decoration:none}
 @media(max-width:800px){.hero,.grid,.split,.contact,.steps{grid-template-columns:1fr}.hero h1{font-size:34px}.hamburger{display:block}nav .links{display:none}}
+/* ===== BIG FOOTER ===== */
+.footer{
+  background:#143d4d;
+  color:#fff;
+  padding:50px 6vw 20px;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.3fr 1fr 1fr 1.2fr;
+  gap:30px;
+}
+.footer h3{font-size:20px;margin:0 0 14px}
+.footer h3 span{color:#e07a2f}
+.footer p{color:#cfe6ec;line-height:1.7;font-size:15px}
+.footer a{
+  display:block;
+  color:#cfe6ec;
+  text-decoration:none;
+  padding:6px 0;
+  font-size:15px;
+}
+.footer a:hover{color:#fff}
+.footer-social{display:flex;gap:14px;margin-top:14px;font-size:24px}
+.footer-social a{padding:0}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.2);
+  margin-top:30px;
+  padding-top:16px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  font-size:13px;
+  color:#a8c5cd;
+}
+@media(max-width:800px){
+  .footer-grid{grid-template-columns:1fr}
+}
